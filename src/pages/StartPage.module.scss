@@ -1,0 +1,27 @@
+@import "../variables";
+
+main {
+  padding-top: 1rem;
+
+  .searchContainer {
+    input {
+      border: solid $primaryGreen-light 1px;
+      border-radius: 3px;
+      background-repeat: no-repeat;
+      padding: 1rem;
+      width: 17.5rem;
+
+      &:focus-visible {
+        outline: none;
+      }
+    }
+  }
+
+  .coffeeCards {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

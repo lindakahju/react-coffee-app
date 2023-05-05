@@ -1,0 +1,21 @@
+@import "../variables";
+
+.coffeeCardContainer {
+  margin: 0.5rem;
+  padding: 2.65rem;
+  background-color: white;
+  @include box-shadowing;
+  img {
+    width: 14.375rem;
+    height: 10.625rem;
+    border-radius: 0.9375rem;
+  }
+  .coffee {
+    display: flex;
+    justify-content: space-between;
+  }
+  .coffeeCardBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

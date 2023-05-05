@@ -1,0 +1,28 @@
+@import "../variables";
+
+.cartContainer {
+  padding: 1rem;
+
+  button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $primaryGreen-dark;
+    color: white;
+    padding: 0.2rem 1rem;
+    width: 3.7rem;
+    height: 2.2rem;
+    border: none;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-left: 0.15rem;
+  }
+}
+
+.totalPrice {
+  padding: 1rem;
+}

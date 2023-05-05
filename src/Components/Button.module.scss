@@ -1,0 +1,13 @@
+@import "../variables";
+
+.button {
+  background-color: $primaryGreen-dark;
+  font-family: $primaryText;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  width: 4rem;
+  height: 2.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}

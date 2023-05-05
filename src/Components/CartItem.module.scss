@@ -1,0 +1,28 @@
+@import "../variables";
+
+main {
+  h2 {
+    padding: 1rem;
+  }
+
+  .cartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+
+    .cartInfo {
+      margin: auto;
+    }
+
+    button {
+      background-color: $primaryGreen-dark;
+      color: white;
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 0.5rem;
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
